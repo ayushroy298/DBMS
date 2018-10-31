@@ -9,6 +9,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void adminClick(View view)
     {
+        int a;
         Intent intent=new Intent(getApplicationContext(),AdminActivity.class);
         startActivity(intent);
     }
